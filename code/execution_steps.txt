@@ -1,0 +1,4 @@
+Commands:
+python indicators.py
+python ManualStrategy.py
+python TheoreticallyOptimalStrategy.py
