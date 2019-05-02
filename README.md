@@ -172,6 +172,6 @@ The manual strategy works well for the train period as we were able to tweak the
 [![ManualStrategy-test](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Test.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/images/ManualStrategy-Test.png)
 
 ##### Now that we have found that our rule based strategy was not very optimum, can we apply machine learning to learn optimal rules and achieve better results.
- [Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy]({{ site.baseurl }}{% post_url 2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2 %}).
+ [Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy](http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/).
 
 
