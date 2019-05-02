@@ -1,3 +1,5 @@
+### Technical Analysis with Indicators and building a ML based trading strategy (Part 1 of 2)
+
 Technical indicators are heuristic or mathematical calculations based on the price, volume, or open interest of a security or contract used by traders who follow technical analysis. By analysing historical data, technical analysts use indicators to predict future price movements. Using these predictions, analysts create strategies that they would apply to trade a security in order to make profit.
 
 In this post, we will be discussing:
@@ -21,7 +23,7 @@ SMA is the moving average calculated by sum of adjusted closing price of a stock
 
 SMA can be used as a proxy the true value of the company stock. For large deviations from the price, we can expect the price to come back to the SMA over a period of time. This can create a BUY and SELL opportunity when optimised over a threshold.
 
-[![SMA Chart](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Simple%20Moving%20Average.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/Normalized%20Price%20%26%20Simple%20Moving%20Average.png)
+[![SMA Chart](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/Normalized%20Price%20%26%20Simple%20Moving%20Average.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/Normalized%20Price%20%26%20Simple%20Moving%20Average.png)
 
 
 ### Momentum
@@ -33,7 +35,7 @@ Momentum refers to the rate of change in the adjusted close price of the s. It c
 
 The value of momentum can be used an indicator, and can be used as a intuition that future price may follow the inertia. That means that if a stock price is going up with a high momentum, we can use this as a signal for BUY opportunity as it can go up further in future.
 
-[![Momentum Chart](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Momentum.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Momentum.png)
+[![Momentum Chart](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/Normalized%20Price%20%26%20Momentum.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/Normalized%20Price%20%26%20Momentum.png)
 
 ### Bollinger Bands®
 
@@ -47,7 +49,7 @@ Bollinger Bands (developed by John Bollinger) is the plot of two bands two sigma
 
 If we plot the Bollinger Bands with the price for a time period:
 
-[![BB Chart](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png)
+[![BB Chart](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/Normalized%20Price%20%26%20Bollinger%20bands.png)
 
 We can find trading opportunity as SELL where price is entering the upper band from outside the upper band, and BUY where price is lower than the lower band and moving towards the SMA from outside. This movement inlines with our indication that price will oscillate from SMA, but will come back to SMA and can be used as trading opportunities.
 
@@ -94,7 +96,7 @@ Results:
   
   
 
-[![Theoritical Chart](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/TheoreticallyOptimalStrategy.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/TheoreticallyOptimalStrategy.png)
+[![Theoritical Chart](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/TheoreticallyOptimalStrategy.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/TheoreticallyOptimalStrategy.png)
 
   
 
@@ -138,7 +140,7 @@ Results:
 |Average of daily returns|0.000692144738531|0.000168086978191
 |Final Portfolio Value|135884.05|101230.0
 
-[![ManualStrategy](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Train.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Train.png)
+[![ManualStrategy](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/ManualStrategy-Train.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/ManualStrategy-Train.png)
 
 # Comparative Analysis
 
@@ -168,9 +170,9 @@ For out-sample:
 
 The manual strategy works well for the train period as we were able to tweak the different thresholds like window size, buy and selling threshold for momentum and volatility. The tweaked parameters did not work very well. Our bets on a large window size was not correct and even though the price went up, the huge lag in reflection on SMA and Momentum, was not able to give correct BUY and SELL opportunity on time.
 
-[![ManualStrategy-test](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Test.png)](https://github.com/anmolkapoor/project-technical-analysis-using-indicators-on-stock-data/raw/master/images/ManualStrategy-Test.png)
+[![ManualStrategy-test](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/ManualStrategy-Test.png)](https://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategy/raw/master/imhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyhttps://github.com/anmolkapoor/technical-analysis-using-indicators-and-building-rule-based-strategyages/raw/master/images/ManualStrategy-Test.png)
 
 ##### Now that we have found that our rule based strategy was not very optimum, can we apply machine learning to learn optimal rules and achieve better results.
- [Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy](http://anmolkapoor.in/2019/05/02/Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2/).
+ [Read the next part of the series to create a machine learning based strategy over technical indicators and its comparative analysis over the rule based strategy]({{ site.baseurl }}{% post_url 2019-05-02-Technical-Analysis-With-Indicators-And-Building-ML-Based-Trading-Strategy-Part-2 %}).
 
 
