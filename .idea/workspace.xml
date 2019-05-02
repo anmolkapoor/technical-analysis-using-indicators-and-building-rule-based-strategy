@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f039169f-c906-48fa-b70e-b48187301dc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/JPM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SPY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-technical-analysis-using-indicators-on-stock-data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-technical-analysis-using-indicators-on-stock-data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ManualStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ManualStrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/indicators.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/indicators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/crawled_JPM_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/code/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -24,7 +33,92 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/JPM.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="3176" selection-start-line="3176" selection-end-line="3176" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/execution_steps.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/indicators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#397#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/ManualStrategy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1673">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding>
+                <element signature="e#397#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/SPY.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AAPL</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>JPM</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,23 +127,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/JPM.csv" />
+        <option value="$PROJECT_DIR$/code/util.py" />
+        <option value="$PROJECT_DIR$/code/ManualStrategy.py" />
+        <option value="$PROJECT_DIR$/code/indicators.py" />
+        <option value="$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py" />
+        <option value="$PROJECT_DIR$/code/requirements.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/project-technical-analysis-using-indicators-on-stock-data.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1680" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -64,6 +154,16 @@
               <item name="project-technical-analysis-using-indicators-on-stock-data" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-technical-analysis-using-indicators-on-stock-data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project-technical-analysis-using-indicators-on-stock-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-technical-analysis-using-indicators-on-stock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-technical-analysis-using-indicators-on-stock-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-technical-analysis-using-indicators-on-stock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -73,11 +173,18 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -94,6 +201,58 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.TheoreticallyOptimalStrategy">
+    <configuration name="ManualStrategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project-technical-analysis-using-indicators-on-stock-data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/ManualStrategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TheoreticallyOptimalStrategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project-technical-analysis-using-indicators-on-stock-data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TheoreticallyOptimalStrategy" />
+        <item itemvalue="Python.ManualStrategy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,29 +263,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556809630592</updated>
-      <workItem from="1556809634563" duration="340000" />
+      <workItem from="1556809634563" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340000" />
+    <option name="totallyTimeSpent" value="1950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21306472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" weight="0.59345794" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -141,6 +300,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_technical_analysis_using_indicators_on_stock_data$ManualStrategy.coverage" NAME="ManualStrategy Coverage Results" MODIFIED="1556812540461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/project_technical_analysis_using_indicators_on_stock_data$TheoreticallyOptimalStrategy.coverage" NAME="TheoreticallyOptimalStrategy Coverage Results" MODIFIED="1556812545619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -149,6 +312,70 @@
             <caret line="173" column="278" selection-start-line="173" selection-start-column="278" selection-end-line="173" selection-end-column="278" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/JPM.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="3176" selection-start-line="3176" selection-end-line="3176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SPY.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ManualStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1673">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="e#397#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/indicators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/TheoreticallyOptimalStrategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#397#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/execution_steps.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>

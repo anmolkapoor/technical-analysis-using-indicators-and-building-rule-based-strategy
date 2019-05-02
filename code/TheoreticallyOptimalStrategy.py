@@ -1,14 +1,4 @@
-#
-# Provide a chart that reports:
-#
-# Benchmark (see definition above) normalized to 1.0 at the start: Green line
-# Value of the theoretically optimal portfolio (normalized to 1.0 at the start): Red line
-# You should also report in text:
-#
-# Cumulative return of the benchmark and portfolio
-# Stdev of daily returns of benchmark and portfolio
-# Mean of daily returns of benchmark and portfolio
-#
+
 
 import pandas as pd
 import numpy as np
@@ -16,7 +6,7 @@ import datetime as dt
 import os
 import matplotlib.pyplot as plt
 
-from util import get_data, plot_data
+from util import get_data
 
 
 def compute_portfolio_stats(port_val):

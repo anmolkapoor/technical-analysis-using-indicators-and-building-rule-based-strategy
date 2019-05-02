@@ -1,14 +1,3 @@
-#
-# Provide a chart that reports:
-#
-# Benchmark (see definition above) normalized to 1.0 at the start: Green line
-# Value of the theoretically optimal portfolio (normalized to 1.0 at the start): Red line
-# You should also report in text:
-#
-# Cumulative return of the benchmark and portfolio
-# Stdev of daily returns of benchmark and portfolio
-# Mean of daily returns of benchmark and portfolio
-#
 
 import pandas as pd
 import numpy as np
@@ -16,7 +5,7 @@ import datetime as dt
 import os
 import matplotlib.pyplot as plt
 
-from util import get_data, plot_data
+from util import get_data
 import indicators
 
 
@@ -110,7 +99,7 @@ class ManualStrategy:
         elif portfolio_position == 1000:
             return -2000
 
-    def testPolicy(self, symbol="AAPL", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=100000):
+    def testPolicy(self, symbol="JPM", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=100000):
 
         dates = pd.date_range(sd, ed)
 
@@ -187,7 +176,7 @@ class ManualStrategy:
         df_trades = pd.DataFrame(data=trade_shares, index=df.index, columns=['orders'])
         return df_trades
 
-    def benchmark(self, symbol="AAPL", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=100000):
+    def benchmark(self, symbol="JPM", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=100000):
         dates = pd.date_range(sd, ed)
         df = get_data([symbol], dates)
         trade_shares = [1000, 0]
